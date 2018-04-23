@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.4.
 
+# git cz 代码提交描述
+type有下面几个类型：
+    Feat--新功能
+    Fix--修复bug
+    Style—代码格式 
+    Refactor--代码重构
+    Chore--项目构建（修改版本号等）
+scope：模块名称—代码的功能
+subject： 描述信息
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
