@@ -1,0 +1,27 @@
+@import './mixi';
+$width: 100%;
+.nav{
+	background:url(./../assets/images/index/header/nav-BG.png) no-repeat;
+	width: $width;
+	height: 3.06rem;
+	.url{
+		background: yellow;
+		&:hover{
+			background: red;
+		}
+	}
+	h1,h2,h3{
+		color: yellow;
+	}
+	h1,h2{
+		a{
+			color: pink;
+		}	
+	}
+	header + p{
+		color: brown;
+	}
+	header ~ p {
+		font-size: 0.5rem;
+	}
+} 
