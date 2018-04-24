@@ -1,3 +1,9 @@
+$defaultColor: skyblue;
+@mixin border5px {
+    -moz-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+}
 div{
     h4{
         background: aqua;
